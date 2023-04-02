@@ -1,0 +1,47 @@
+body{
+    background-color: bisque;
+    font-size: 30px;
+}
+
+p {
+    color: black;
+}
+
+#sketch {
+    color: red;
+}
+
+#score{
+    text-align: left;
+}
+
+#timer{
+    text-align: left;
+}
+
+canvas{
+
+    border: 5px solid black;
+    border-radius: 20px ;
+    margin-top: 50px ;
+    animation-name: kiran;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes kiran {
+    from{box-shadow: 1px 1px 30px brown}
+    to{ box-shadow: 1px 1px 30px greenyellow}
+}
+
+#kiran{
+    background-color: rgb(201, 245, 220);
+    color: black;
+}
+
+#show_sketch{
+    float: right;
+}
+    
